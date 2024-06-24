@@ -10,5 +10,10 @@ export const meta: MetaFunction = () => {
 }
 
 export default function Index() {
-  return <div className={clsx('tw-flex tw-flex-col tw-gap-4')}>{'demo'}</div>
+  return (
+    <div className={clsx('tw-flex tw-flex-col tw-gap-4')}>
+      <a href={'/form'}>{'Form'}</a>
+      <a href={'/form_schema'}>{'Form Schema'}</a>
+    </div>
+  )
 }

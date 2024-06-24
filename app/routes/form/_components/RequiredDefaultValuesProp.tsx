@@ -31,7 +31,7 @@ const RequiredDefaultValuesProp = ({
 export const RequiredDefaultValuesPropForCreate = () => {
   return (
     <RequiredDefaultValuesProp
-      label={'Static DefaultValues: OK'}
+      label={'Required Default Values Prop For Create: OK'}
       defaultValues={STATIC_DEFAULT_VALUES}
     />
   )
@@ -51,7 +51,7 @@ export const RequiredDefaultValuesPropForUpdate = () => {
 
   return dynamicValues ? (
     <RequiredDefaultValuesProp
-      label={'Static DefaultValues: OK'}
+      label={'Required Default Values Prop For Update: OK'}
       defaultValues={{
         ...dynamicValues,
       }}
