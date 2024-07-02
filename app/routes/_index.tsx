@@ -14,6 +14,7 @@ export default function Index() {
     <div className={clsx('tw-flex tw-flex-col tw-gap-4')}>
       <a href={'/form'}>{'Form'}</a>
       <a href={'/form_schema'}>{'Form Schema'}</a>
+      <a href={'/create_or_update_form'}>{'Create Or Update Form'}</a>
     </div>
   )
 }
